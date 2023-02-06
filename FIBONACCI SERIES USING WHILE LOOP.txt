@@ -1,0 +1,10 @@
+serieslength=int(input("ENTER SERIES LENGTH:"))
+firstnumber=int(input("ENTER FIRST NUMBER:"))
+secondnumber=int(input("ENTER SECOND NUMBER:"))
+count=2
+print(firstnumber)
+print(secondnumber)
+while (count<serieslength ):
+thirdnumber=firstnumber+secondnumber
+    print(thirdnumber)
+firstnumber=secondnumber
